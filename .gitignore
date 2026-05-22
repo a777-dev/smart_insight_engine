@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.streamlit/secrets.toml
+models/*.pkl
+models/*.json
+data/processed_behavioral_data.csv
+
+# Developer instructions (private; do not publish)
+DEVELOPER INSTRUCTIONS*.pdf
