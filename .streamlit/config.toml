@@ -11,16 +11,12 @@ gatherUsageStats = false
 
 [server]
 headless = true
-port = 8000
-enableCORS = false
-enableXsrfProtection = false
 maxUploadSize = 200
 maxMessageSize = 200
 
 [client]
-showErrorDetails = false
+showErrorDetails = true
 toolbarMode = "viewer"
 
 [logger]
 level = "info"
-
