@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
-RAW_DATA_PATH = ROOT_DIR / "unified_behavioral_intelligence.csv"
+RAW_DATA_PATH = ROOT_DIR / "data" / "unified_behavioral_intelligence.csv"
 PROCESSED_DATA_PATH = ROOT_DIR / "data" / "processed_behavioral_data.csv"
 MODELS_DIR = ROOT_DIR / "models"
 
@@ -166,27 +166,27 @@ DEFAULT_INPUTS = {
 
 # Palette aligned with the master UI/UX brief.
 PALETTE = {
-    "background": "#FFFFFF",
-    "foreground": "#111827",
-    "primary": "#3B82F6",
-    "secondary": "#10B981",
-    "accent": "#F59E0B",
-    "muted": "#F3F4F6",
-    "border": "#E5E7EB",
-    "danger": "#EF4444",
-    "soft_text": "#4B5563",
+    "background":  "#0D1424",
+    "foreground":  "#F0F4FF",
+    "primary":     "#6366F1",
+    "secondary":   "#10B981",
+    "accent":      "#F59E0B",
+    "muted":       "rgba(255,255,255,0.06)",
+    "border":      "rgba(255,255,255,0.10)",
+    "danger":      "#EF4444",
+    "soft_text":   "#94A3B8",
 }
 
 REGION_PALETTE = {
     "India": "#F59E0B",
-    "USA": "#3B82F6",
+    "USA":   "#818CF8",
     "Global": "#10B981",
 }
 
 USER_PALETTE = {
-    "Student": "#3B82F6",
+    "Student":      "#818CF8",
     "Professional": "#F59E0B",
-    "Mixed": "#10B981",
+    "Mixed":        "#10B981",
 }
 
 ADDICTION_PALETTE = {
